@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem; 
+}
+
+body #custom {
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+body #custom.checked {
+    background: #000;
+}
+
+body #custom.focus {
+    outline-color: blue;
+    outline-style: solid;
+    outline-offset: 2px;
+}
+
+body #custom svg {
+    display: none;
+    color: #fff;
+}
+
+body #custom.checked svg {
+    display: inline;
+}
